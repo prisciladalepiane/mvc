@@ -1,0 +1,4 @@
+<?php
+$rotas = [
+  '/' => 'PaginaLogin'
+];
