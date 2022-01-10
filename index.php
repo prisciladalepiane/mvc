@@ -1,8 +1,13 @@
 <?php
  $DIRETORIO_PROJETO = dirname(__FILE__);
+ //var_dump($_SERVER);
 
-include ('core/classes/Rotas.php');
-$rota = new Rotas();
+include('core/classes/Core.php');
+
+
+$core = new Core();
+$core->trataRequisicao();
+
 ?>
 
 <html>
@@ -11,10 +16,10 @@ $rota = new Rotas();
 </head>
 <body>
 
-<h1> Hellow World! </h1>
+<h1>  </h1>
 <?php
 
-var_dump($_SERVER);
+
 
 
 ?>

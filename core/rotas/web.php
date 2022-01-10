@@ -1,4 +1,6 @@
 <?php
-$rotas = [
-  '/' => 'PaginaLogin'
+
+Rotas::$GET = [
+  '/' => 'PaginaLogin',
+  'usuario_login' => 'LoginControlador'
 ];
